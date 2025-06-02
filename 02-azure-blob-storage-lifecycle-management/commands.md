@@ -26,6 +26,10 @@ az storage account create \
 
 Set up Lifecycle Policies:
 
+First make sure the lifecycle.json file is present. You can run `nano lifecycle.json` to open the file and then paste in the contents of lifecycle.json.
+
+The running the following commands.
+
 ```
 az storage account management-policy create \
   --account-name azstoragescalingcli \
